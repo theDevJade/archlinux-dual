@@ -4,7 +4,7 @@ on:
   push:
     # To trigger the workflow once you push to the `main` branch
     # Replace `main` with your branch’s name
-    branches: ["docs"]
+    branches: ["master"]
   # Specify to run a workflow manually from the Actions tab on GitHub
   workflow_dispatch:
 
@@ -14,9 +14,9 @@ permissions:
 
 env:
   # Name of module and id separated by a slash
-  INSTANCE: workspace/oxide
+  INSTANCE: workspace/hi
   # Replace XX with the ID of the instance in capital letters
-  ARTIFACT: webHelpOXIDE2-all.zip
+  ARTIFACT: webHelpHI2-all.zip
   # Docker image version
   DOCKER_VERSION: 2.1.1479-p3869
 
