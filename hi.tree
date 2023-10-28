@@ -6,5 +6,9 @@
                  name="Help Instance"
                  start-page="Default-topic.md">
 
-    <toc-element topic="Default-topic.md"/>
+    <toc-element topic="Default-topic.md">
+        <toc-element topic="Starting-Install-Windows.md"/>
+        <toc-element topic="Let-s-Get-Started.md"/>
+        <toc-element topic="Finnallyyy-Partitions.md"/>
+    </toc-element>
 </instance-profile>
